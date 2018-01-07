@@ -1,0 +1,43 @@
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.abc",
+    "application": {
+      "applicationId": "APP_ID"
+    },
+    "attributes": {
+      "STATE": "_CHOOSE_GAME"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.001"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.123",
+    "timestamp": "2017-03-04T19:34:05Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "GameNumberIntent",
+      "slots": {
+        "number": {
+          "value": 1
+        }
+      }
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+          "applicationId": "APP_ID"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.001"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

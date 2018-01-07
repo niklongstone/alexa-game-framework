@@ -1,0 +1,6 @@
+# Package directories
+node_modules
+
+# Alexa deployments
+*.zip
+*.log

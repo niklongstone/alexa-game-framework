@@ -1,0 +1,27 @@
+{
+  "name": "time-travel-quest",
+  "version": "1.0.0",
+  "description": "Time Travel Quest Alexa Skill",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.20",
+    "chai": "^4.1.2",
+    "chai-string": "^1.4.0",
+    "mocha": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "scripts": {
+    "test": "NO_LOG=true ./node_modules/.bin/mocha test/*",
+    "lint": "./node_modules/.bin/eslint custom/"
+  },
+  "keywords": [
+    "alexa",
+    "amazon"
+  ],
+  "author": "Nicola Pietroluongo <nik.longstone@gmail.com>",
+  "license": "MIT"
+}

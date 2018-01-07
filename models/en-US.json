@@ -1,0 +1,58 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "your invocation name",
+			"intents": [{
+					"name": "ChooseGameIntent",
+					"samples": [
+						"start a game",
+						"start new game",
+						"start the game",
+						"I want to start",
+						"I want to play",
+						"let me play"
+					]
+				},
+				{
+					"name": "GameNumberIntent",
+					"samples": [
+						"{number}",
+						"is it {number}",
+						"how about {number}",
+						"could be {number}",
+						"the correct anwser is {number}",
+						"the anwser is {number}"
+					],
+					"slots": [{
+						"name": "number",
+						"type": "AMAZON.NUMBER"
+					}]
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": [
+						"help me please",
+						"help please",
+						"what should i do",
+						"tell me how to resume"
+					]
+				},
+				{
+					"name": "AMAZON.StopIntent"
+				},
+				{
+					"name": "AMAZON.CancelIntent"
+				},
+				{
+					"name": "AMAZON.RepeatIntent"
+				},
+				{
+					"name": "AMAZON.YesIntent"
+				},
+				{
+					"name": "AMAZON.NoIntent"
+				}
+			]
+		}
+	}
+}

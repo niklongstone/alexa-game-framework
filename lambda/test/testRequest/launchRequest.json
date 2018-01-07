@@ -1,0 +1,33 @@
+{
+  "session": {
+    "new": true,
+    "sessionId": "SessionId.abc",
+    "application": {
+      "applicationId": "APP_ID"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.001"
+    }
+  },
+  "request": {
+    "type": "LaunchRequest",
+    "requestId": "amzn1.echo-api.request.123",
+    "locale": "en-US",
+    "timestamp": "2017-12-11T23:20:43Z"
+  },
+  "context": {
+    "System": {
+      "application": {
+          "applicationId": "APP_ID"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.001"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}
